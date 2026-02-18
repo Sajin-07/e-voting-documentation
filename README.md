@@ -269,6 +269,12 @@ nvm use 24.11.1
    sudo chown -R $USER:$USER ../../crypto-material
    ./setup-docker-server.sh --fresh
    ```
+7. **Run frontend:**
+   ```bash
+   cd votingAngular
+   ng serve
+   ```
+   
 
 ### Environment Variables
 
